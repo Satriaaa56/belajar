@@ -1,1 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
 
+body {
+    background-image: url(https://images.unsplash.com/photo-1465101162946-4377e57745c3?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    
+}
+
+.navbar-logo img {
+    width: 306px;
+    height: 95px;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    background-color: rgb(252, 252, 252);
+}
+
+.navbar-left {
+    background-color: transparent;
+    color: black;
+    font-size: 3opx;
+    margin-right:10px;
+}
+
+.right .fa-instagram{
+    background: transparent;
+    color: black;
+    font-size: 30px;
+    margin-left:15px;
+}
+
+.right .fa-twitter{
+    background: transparent;
+    color: black;
+    font-size: 30px;
+    margin-left:15px;
+}
+
+.right .fa-spotify{
+    background: transparent;
+    color: black;
+    font-size: 30px;
+    margin-left:10px;
+}
+
+.right .fa-youtube{
+    background-color: transparent;
+    color: black;
+    font-size: 30px;
+    margin-left:10px;
+}
+
+.right .fa-apple{
+    background-color: transparent;
+    color: black;
+    font-size: 30px;
+    margin-left:10px;
+}
+
+.content{
+    text-align: center;
+    color: #000000;
+    font-size: 30px;
+    min-height: 75vh;
+    background-image: url(https://memoryscreenzine.wordpress.com/wp-content/uploads/2021/02/0023430427_10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 60vh;
+}
+
+.content p {
+    text-align: center;
+    color: #000000;
+    font-size: 40px;
+    padding: 5rem;
+}
+
+.TOUR {
+    min-height: 120vh;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/574f3465746fb9ccc22d890f/1649706989089-5RX0ENNWQJE3FF88P06W/anxious-13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.TOUR h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 60px;
+    padding: 5rem;
+}
+
+table, th, td {
+    background-color: transparent;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 80rem;
+    height: 5rem;
+    margin-left: 20rem;
+}
+
+button {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 15px 20px 15px 20px;
+}
+
+.VIDEOS {
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+    padding: 5rem;
+    background-image: url(https://images.genius.com/237140a4a1ab5cc0da91c7b584ab7d59.600x600x1.jpg);
+}
+
+.embossed li{ 
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom:5px;
+}
+
+.ABOUT {
+    min-height: 120vh;
+    background-image: url(https://wqaq.com/wp-content/uploads/2023/11/IMG_4925-Enhanced-NR-copy-1200x822.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ABOUT h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 60px;
+    padding: 5rem;
+
+}
+
+.ABOUT p {
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+    padding: 3rem;
+}
+
+.Footer-left p {
+    font-size: 20px;
+    color: #fff;
+}
+.Footer-left p span {
+    color: #fff;
+    font-size: 20px;
+}
